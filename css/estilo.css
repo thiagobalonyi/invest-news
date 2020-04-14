@@ -80,3 +80,44 @@ body.educacao #navegacao a#educacao
     background: #00913d;
     cursor: text;
 }
+
+/*Configuração Layout 3 colunas*/
+
+#conteudo {
+    margin-top: 60px;
+    background: #fff;
+}
+
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+    background: blue;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+    background: chartreuse;
+}
+
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: crimson;
+}
+
+/* Roda pé */
+
+#container-rodape {
+    background: #3d3d3d;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0px;
+    color: #fff;
+}
