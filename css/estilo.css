@@ -88,10 +88,26 @@ body.educacao #navegacao a#educacao
     background: #fff;
 }
 
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #primario {
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
+    background: blue;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    width: 720px;
+    margin: 0 0 20px 0;
     background: blue;
 }
 
@@ -102,11 +118,25 @@ body.educacao #navegacao a#educacao
     background: chartreuse;
 }
 
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    background: crimson;
+/* Caixa */
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1em;
+    background: #3d3d3d;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 
 /* Roda pé */
