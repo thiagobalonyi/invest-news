@@ -98,7 +98,6 @@ body.educacao #navegacao a#educacao
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario {
@@ -115,7 +114,6 @@ body.educacao #navegacao a#educacao
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: chartreuse;
 }
 
 /* Caixa */
@@ -176,6 +174,32 @@ input.submit {
     color: #fff;
     background-color: #e00109;
     border: 2px solid #870529;
+}
+
+/* Formatando Imagens*/
+
+img.imagem-principal {
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+
+/* Formatando Cabeçalhos */
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #e00109;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #e00109;
+    color: #fff;
 }
 
 /* Roda pé */
