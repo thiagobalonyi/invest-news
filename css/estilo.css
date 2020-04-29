@@ -32,6 +32,15 @@ body {
 
 /* Barra de navegação*/
 
+a:link, a:visited {
+    color: #e00109;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -107,7 +116,6 @@ body.educacao #navegacao a#educacao
 #uma-coluna #primario {
     width: 720px;
     margin: 0 0 20px 0;
-    background: blue;
 }
 
 #secundario {
@@ -200,6 +208,40 @@ h3 {
 .entrevista h3 {
     background: #e00109;
     color: #fff;
+}
+
+/* Formatando lista de notícias */
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#lista-noticias li a h3 {
+    padding: 0;
+    font-size: 0.8em;
+    color: #00913d;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
 }
 
 /* Roda pé */
